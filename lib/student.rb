@@ -1,10 +1,7 @@
-require_relative "./student.rb"
-class Student
-  
 class Student < User
-end
- def go
-    "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+  attr_accessor :knowledge
+  
+  def initialize
+    @knowledge = []
   end
-end
 end
